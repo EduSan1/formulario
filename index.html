@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form name="frmCadastro" method="GET" action="index.html">
+        <p>Nome:</p>
+        <input type="text" name="txtNome" size="50" maxlength="10 ">
+        <p>Cidade:</p>
+        <select name="sltCidade" id="">
+            <option value="jandira">Jandira</option>
+            <option value="osasco">Osasco</option>
+            <option value="carapicuiba" selected>Carapicuiba</option>
+            <option value="barueri">Barueri</option>
+            <option value="itapevi">Itapevi</option>
+        </select>
+
+        <p>Sexo:</p>
+        <input type="radio" name="rdoSexo" value="F">Feminino
+        <input type="radio" name="rdoSexo" value="M">Masculino
+        <input type="radio" name="rdoSexo" value="N">Não Binario
+        <input type="radio" name="rdoSexo" value="O">Outro
+        <input type="radio" name="rdoSexo" value="J">Jorge
+        <input type="radio" name="rdoSexo" value="P">Prefiro não informar
+
+        <p>Idioma:</p>
+        <input type="checkbox" name="chkPtBr"> Português
+        <input type="checkbox" name="chkEN"> Inglês
+        <input type="checkbox" name="chkEs"> Espanhol
+        <input type="checkbox" name="chkJo"> Jorge
+    
+        <p>Faça observações sobre o Jorge</p>
+        <textarea name="txaObservacoes"" cols="40" rows="5"></textarea>
+
+        <input type="submit" name="btnJorge" value="Jorge">
+
+    </form>
+
+</body>
+
+</html>
